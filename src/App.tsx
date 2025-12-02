@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="min-h-screen bg-primary px-12 py-7">
       <Header />
-      <main>
+      <main className="flex flex-col gap-28">
         <HeroSection />
       </main>
     </div>
