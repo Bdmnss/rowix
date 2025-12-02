@@ -1,10 +1,14 @@
 import Header from "./layout/Header";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
-    <body className="bg-primary px-12 py-7">
+    <div className="min-h-screen bg-primary px-12 py-7">
       <Header />
-    </body>
+      <main>
+        <HeroSection />
+      </main>
+    </div>
   );
 }
 

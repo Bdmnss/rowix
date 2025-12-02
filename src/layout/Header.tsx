@@ -15,7 +15,7 @@ const Header = () => {
         {headerProps.map((prop) => (
           <button
             key={prop}
-            className={`rounded-xl px-6 py-4 text-gray ${prop === "CONTACT US" ? "bg-orange font-medium text-primary" : "bg-primary hover:text-orangeLight"}`}
+            className={`rounded-xl px-6 py-4 font-mono text-lg text-gray ${prop === "CONTACT US" ? "bg-orange font-medium text-primary" : "bg-primary hover:text-orangeLight"}`}
           >
             {prop}
           </button>

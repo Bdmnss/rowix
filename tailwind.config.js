@@ -12,6 +12,7 @@ export default {
         orangeText: "#F9EFEC",
       },
       fontFamily: {
+        sans: ["Roboto Flex", "sans-serif"],
         mono: ["Roboto Mono", "monospace"],
       },
     },
