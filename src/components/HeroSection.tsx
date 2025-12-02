@@ -2,37 +2,10 @@ import ServicesSlider from "./ServicesSlider";
 import Icon from "../icons/Icon";
 import StatsSection from "./StatsSection";
 
-const statsData = [
-  {
-    title: "CLIENTS",
-    data: "200+",
-  },
-  {
-    title: "PROJECTS",
-    data: "280+",
-  },
-  {
-    title: "HAPPY CLIENTS",
-    data: "100%",
-  },
-  {
-    title: "FOLLOWER",
-    data: "420K",
-  },
-  {
-    title: "Years Of Experience",
-    data: "10+",
-  },
-  {
-    icon: <Icon type="BigUpArrowIcon" />,
-    title: "KNOW MORE",
-  },
-];
-
 function HeroSection() {
   return (
-    <div className="flex flex-col gap-5">
-      <div className="mt-5 flex gap-5">
+    <div className="mt-5 flex flex-col gap-5">
+      <div className="flex gap-5">
         <div className="w-3/4 rounded-[20px] bg-secondary px-5 pb-5 pt-24">
           <div className="flex flex-col gap-5 px-10">
             <div className="flex items-center gap-4">
@@ -76,7 +49,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
-      <StatsSection items={statsData} />
+      <StatsSection />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import Header from "./layout/Header";
 import HeroSection from "./components/HeroSection";
+import ReasonsSection from "./components/ReasonsSection";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <Header />
       <main className="flex flex-col gap-28">
         <HeroSection />
+
+        <ReasonsSection />
       </main>
     </div>
   );

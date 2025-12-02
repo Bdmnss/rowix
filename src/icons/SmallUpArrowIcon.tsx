@@ -1,6 +1,6 @@
 import type { IconProps } from "./iconTypes";
 
-const BigUpArrowIcon = ({ className }: IconProps) => {
+const SmallUpArrowIcon = ({ className }: IconProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -20,4 +20,4 @@ const BigUpArrowIcon = ({ className }: IconProps) => {
   );
 };
 
-export default BigUpArrowIcon;
+export default SmallUpArrowIcon;

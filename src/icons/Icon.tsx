@@ -1,13 +1,13 @@
 import type { IconProps } from "./iconTypes";
 import RightArrowIcon from "./RightArrowIcon";
 import UpArrowIcon from "./UpArrowIcon";
-import BigUpArrowIcon from "./BigUpArrowIcon";
-export type IconType = "RightArrowIcon" | "UpArrowIcon" | "BigUpArrowIcon";
+import SmallUpArrowIcon from "./SmallUpArrowIcon";
+export type IconType = "RightArrowIcon" | "UpArrowIcon" | "SmallUpArrowIcon";
 
 const iconMap = {
   RightArrowIcon,
   UpArrowIcon,
-  BigUpArrowIcon,
+  SmallUpArrowIcon,
 };
 
 interface GeneralIconProps extends IconProps {
