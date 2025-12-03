@@ -13,6 +13,7 @@ export default {
         orangeText: "#F9EFEC",
         borderColor: "#1F1F1F",
         buttonBorderColor: "#262626",
+        iconBorderColor: "#333333",
       },
       fontFamily: {
         sans: ["Roboto Flex", "sans-serif"],

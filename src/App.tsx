@@ -1,6 +1,7 @@
 import Header from "./layout/Header";
 import HeroSection from "./components/HeroSection";
 import ReasonsSection from "./components/ReasonsSection";
+import ServicesSection from "./components/ServicesSection";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         <HeroSection />
 
         <ReasonsSection />
+
+        <ServicesSection />
       </main>
     </div>
   );
