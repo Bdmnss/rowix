@@ -40,7 +40,10 @@ const ServicesSection = () => {
 
       <div className="grid grid-cols-2 gap-5">
         {services.map((service) => (
-          <div className="flex flex-col rounded-2xl bg-secondary p-20">
+          <div
+            className="flex flex-col rounded-2xl bg-secondary p-20"
+            key={service.title}
+          >
             <div className="mb-12 flex justify-between">
               <div className="flex items-center gap-3">
                 <div className="flex size-16 items-center justify-center rounded-xl border border-iconBorderColor bg-borderColor">

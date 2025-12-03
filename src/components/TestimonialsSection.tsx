@@ -54,7 +54,7 @@ function TestimonialsSection() {
       <div className="grid grid-cols-4 gap-5">
         {testimonials.map((testimonial) => (
           <div
-            key={testimonial.title}
+            key={testimonial.position}
             className="flex flex-col justify-between gap-5 rounded-2xl bg-secondary"
           >
             <div key={testimonial.title} className="p-10">
