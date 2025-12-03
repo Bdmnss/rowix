@@ -8,6 +8,7 @@ export default {
         secondary: "#1A1A1A",
         gray: "#81807E",
         textGray: "#B3B3B2",
+        lightGray: "#E6E6E6",
         orangeLight: "#E7BEB1",
         orange: "#CE7D63",
         orangeText: "#F9EFEC",

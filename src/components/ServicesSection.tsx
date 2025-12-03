@@ -41,7 +41,7 @@ const ServicesSection = () => {
       <div className="grid grid-cols-2 gap-5">
         {services.map((service) => (
           <div className="flex flex-col rounded-2xl bg-secondary p-20">
-            <div className="flex justify-between">
+            <div className="mb-12 flex justify-between">
               <div className="flex items-center gap-3">
                 <div className="flex size-16 items-center justify-center rounded-xl border border-iconBorderColor bg-borderColor">
                   {service.icon}
@@ -51,12 +51,12 @@ const ServicesSection = () => {
                 </p>
               </div>
 
-              <div className="mb-12 flex items-center gap-2">
+              <button className="flex items-center gap-2">
                 <div className="flex size-12 items-center justify-center rounded-full border border-iconBorderColor bg-borderColor">
                   <Icon type="SmallUpArrowIcon" className="size-6" />
                 </div>
                 <p className="text-lg font-medium text-gray">BOOK A CALL</p>
-              </div>
+              </button>
             </div>
             <p className="text-lg text-gray">{service.description}</p>
 

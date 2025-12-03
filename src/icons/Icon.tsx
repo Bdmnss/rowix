@@ -6,6 +6,8 @@ import WebDesignIcon from "./WebDesignIcon";
 import MobileAppDevelopmentIcon from "./MobileAppDevelopmentIcon";
 import WebDevelopmentIcon from "./WebDevelopmentIcon";
 import DigitalMarketingIcon from "./DigitalMarketingIcon";
+import MagicStickIcon from "./MagicStickIcon";
+import BallonIcon from "./BallonIcon";
 
 export type IconType =
   | "RightArrowIcon"
@@ -14,7 +16,9 @@ export type IconType =
   | "WebDesignIcon"
   | "MobileAppDevelopmentIcon"
   | "WebDevelopmentIcon"
-  | "DigitalMarketingIcon";
+  | "DigitalMarketingIcon"
+  | "MagicStickIcon"
+  | "BallonIcon";
 
 const iconMap = {
   RightArrowIcon,
@@ -24,6 +28,8 @@ const iconMap = {
   MobileAppDevelopmentIcon,
   WebDevelopmentIcon,
   DigitalMarketingIcon,
+  MagicStickIcon,
+  BallonIcon,
 };
 
 interface GeneralIconProps extends IconProps {

@@ -2,6 +2,7 @@ import Header from "./layout/Header";
 import HeroSection from "./components/HeroSection";
 import ReasonsSection from "./components/ReasonsSection";
 import ServicesSection from "./components/ServicesSection";
+import WorksSection from "./components/WorksSection";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <ReasonsSection />
 
         <ServicesSection />
+
+        <WorksSection />
       </main>
     </div>
   );
