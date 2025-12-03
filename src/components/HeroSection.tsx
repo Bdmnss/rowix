@@ -9,19 +9,19 @@ function HeroSection() {
         <div className="w-3/4 rounded-[20px] bg-secondary px-5 pb-5 pt-24">
           <div className="flex flex-col gap-5 px-10">
             <div className="flex items-center gap-4">
-              <h2 className="text-orangeText text-7xl font-semibold">
+              <h2 className="text-7xl font-semibold text-orangeText">
                 DIGITAL SOLUTIONS
               </h2>
               <button className="flex items-center gap-2">
                 <div className="flex size-12 items-center justify-center rounded-full bg-orange">
-                  <Icon type="RightArrowIcon" />
+                  <Icon type="RightArrowIcon" className="text-primary" />
                 </div>
                 <p className="text-2xl font-medium text-orange">
                   START A PROJECT
                 </p>
               </button>
             </div>
-            <h2 className="text-orangeText text-7xl font-semibold">
+            <h2 className="text-7xl font-semibold text-orangeText">
               THAT DRIVE SUCCESS
             </h2>
 
@@ -42,7 +42,7 @@ function HeroSection() {
           </div>
 
           <div className="flex flex-col gap-1 p-7">
-            <h2 className="text-orangeText text-2xl font-medium">
+            <h2 className="text-2xl font-medium text-orangeText">
               ESTATEIN REAL ESTATE
             </h2>
             <p className="text-lg text-gray">Web Development.</p>
