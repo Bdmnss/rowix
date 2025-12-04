@@ -35,7 +35,7 @@ const faqs: FAQItem[] = [
 ];
 
 function FAQSection() {
-  const [expandedIndex, setExpandedIndex] = useState<number>(0);
+  const [expandedIndex, setExpandedIndex] = useState<number>(-1);
 
   const toggleFAQ = (index: number) => {
     setExpandedIndex(expandedIndex === index ? -1 : index);

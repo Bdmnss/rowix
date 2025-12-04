@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 interface InfiniteSliderProps {
   items: string[];
@@ -16,7 +16,14 @@ function InfiniteSlider({
   animationDuration = "30s",
 }: InfiniteSliderProps) {
   // Duplicate items multiple times for seamless infinite scroll
-  const duplicatedItems = [...items, ...items, ...items];
+  const duplicatedItems = [
+    ...items,
+    ...items,
+    ...items,
+    ...items,
+    ...items,
+    ...items,
+  ];
 
   return (
     <div className={`overflow-hidden ${className}`}>
@@ -41,4 +48,3 @@ function InfiniteSlider({
 }
 
 export default InfiniteSlider;
-

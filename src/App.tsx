@@ -5,6 +5,7 @@ import ServicesSection from "./components/ServicesSection";
 import WorksSection from "./components/WorksSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import FAQSection from "./components/FAQSection";
+import Footer from "./layout/Footer";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <TestimonialsSection />
 
         <FAQSection />
+
+        <Footer />
       </main>
     </div>
   );

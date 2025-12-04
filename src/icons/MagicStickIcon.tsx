@@ -1,6 +1,6 @@
 import type { IconProps } from "./iconTypes";
 
-const MobileAppDevelopmentIcon = ({ className }: IconProps) => {
+const MagicStickIcon = ({ className }: IconProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -18,4 +18,4 @@ const MobileAppDevelopmentIcon = ({ className }: IconProps) => {
   );
 };
 
-export default MobileAppDevelopmentIcon;
+export default MagicStickIcon;

@@ -10,6 +10,10 @@ import MagicStickIcon from "./MagicStickIcon";
 import BallonIcon from "./BallonIcon";
 import PlusIcon from "./PlusIcon";
 import MinusIcon from "./MinusIcon";
+import BehanceIcon from "./BehanceIcon";
+import DribbleIcon from "./DribbleIcon";
+import TwitterIcon from "./TwitterIcon";
+import InstagramIcon from "./InstagramIcon";
 
 export type IconType =
   | "RightArrowIcon"
@@ -22,7 +26,11 @@ export type IconType =
   | "MagicStickIcon"
   | "BallonIcon"
   | "PlusIcon"
-  | "MinusIcon";
+  | "MinusIcon"
+  | "BehanceIcon"
+  | "DribbleIcon"
+  | "TwitterIcon"
+  | "InstagramIcon";
 
 const iconMap = {
   RightArrowIcon,
@@ -36,6 +44,10 @@ const iconMap = {
   BallonIcon,
   PlusIcon,
   MinusIcon,
+  BehanceIcon,
+  DribbleIcon,
+  TwitterIcon,
+  InstagramIcon,
 };
 
 interface GeneralIconProps extends IconProps {
